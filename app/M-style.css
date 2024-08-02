@@ -1,0 +1,132 @@
+body{
+    font-family: monospace;
+    line-height: 1.8;
+    background-color: white;
+  }
+  
+  .button{
+    border-radius: 8px;
+  }
+  
+  .button:hover {
+    background-color: #298A08; /* Green */
+    color: white;
+  }
+  
+  #searchBtn{
+    border-radius: 8px;
+  }
+  
+  #mapid { height: 630px; 
+    width: 1220px;
+    left: 215px;
+    position: relative;
+  }
+  
+  #locationBtn{
+    position: relative;
+    left: 215px;
+    width: 165px;
+  }
+  
+  #countriesBtn, #citysBtn, #dropdownShow{
+    position: relative;
+    left: 215px;
+    border-radius: 8px;
+  }
+  
+  
+  /* ----------------------------------------------- */
+  
+  
+  
+  
+  /* search field and search button */
+  * {
+      box-sizing: border-box;
+    }
+    
+    /* Style for the search field */
+    form.example input[type=text] {
+      padding: 10px;
+      font-size: 17px;
+      border: 1px solid grey;
+      position: fixed;
+      width: 80%;
+      background: #f1f1f1;
+    }
+    
+    /* Style for the search button */
+    form.example button {
+      position: relative;
+      width: 20%;
+      padding: 10px;
+      background: #2196F3;
+      color: white;
+      font-size: 17px;
+      border: 1px solid grey;
+      border-left: none;
+      cursor: pointer;
+    }
+    
+    form.example button:hover {
+      color: #298A08;
+    }
+    
+    /* Clear the floats */
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .search{
+    position: relative;
+    left: 215px;
+    border-radius: 8px;
+  }
+  
+  
+  
+  /* ----------------------------------------------- */
+  
+  
+  
+  /* side navigation */
+  .sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #DF7401;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+    
+  /* The navigation menu left */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    display: block;
+  }
+    
+  /* Navigationbar change color, when you go there with your mouse  */
+  .sidenav a:hover {
+    color: rgb(0, 138, 34);
+  }
+    
+  /* Style page content */
+  .main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+    
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }

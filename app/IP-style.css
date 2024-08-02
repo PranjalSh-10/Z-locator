@@ -1,0 +1,71 @@
+body{
+    font-family: monospace;
+    line-height: 1.8;
+    background-color: white;
+}
+
+h1{
+    position: relative;
+    left: 215px;
+    color: #298A08;
+}
+
+h2{
+    position: relative;
+    left: 215px;
+}
+
+h3{
+    position: relative;
+    left: 235px;
+}
+
+p1{
+    position: relative;
+    left: 275px;
+}
+
+#KWSlogo{
+    width: 180px;
+    position: relative;
+    left: 10px;
+    top: 0px;
+}
+
+
+
+/* ----------------------------------------------- */
+
+
+
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ba660b;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+/* The navigation menu left */
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+    display: block;
+}
+
+/* Navigation bar change color, when you go there with your mouse  */
+.sidenav a:hover {
+    color: #298A08;
+}
+
+/* Style page content */
+.main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
